@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#DCC3E8">
+
+    <Button
+        android:id="@+id/new_act_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New activity with student"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:background="#91DDEB"/>
+
+    <Button
+        android:id="@+id/add_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add record"
+        android:layout_marginTop="160dp"
+        android:background="#ECED91"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/addToIvan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change to Ivan"
+        android:textSize="40dp"
+        android:background="#9997E6"
+        android:layout_marginTop="160dp"/>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0B5F5"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/stud_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#00008C"
+        android:background="#C0B5F5"
+        android:layout_gravity="center" />
+
+</LinearLayout>
